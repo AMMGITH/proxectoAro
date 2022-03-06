@@ -7,6 +7,10 @@ import java.text.DecimalFormat;
  * @author Alberto Mourullo Miguez
  */
 public class Main {
+    /**
+     * Inicia a execucion do programa
+     * @param args 
+     */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
         String saida =
