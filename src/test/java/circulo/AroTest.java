@@ -13,10 +13,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author profesor
+ * @author Alberto Mourullo Miguez
  */
 public class AroTest {
     
+    /**
+     * Constructor por defecto 
+     */
     public AroTest() {
     }   
        

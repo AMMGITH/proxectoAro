@@ -7,6 +7,10 @@ import java.text.DecimalFormat;
  * @author Alberto Mourullo Miguez
  */
 public class Main {
+    /**
+     * Inicia a execucion do programa
+     * @param args 
+     */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
         String saida =
@@ -20,6 +24,7 @@ public class Main {
         saida+="\nO diámetro é "+dousDixitos.format(circulo.obterDiametro());
         saida+="\nA circunferencia é "+dousDixitos.format(circulo.obterCircunferencia());
         saida+="\nA área é "+dousDixitos.format(circulo.obterSuperficie());
+       
         System.out.println(saida);
         
         System.out.println(saida);
